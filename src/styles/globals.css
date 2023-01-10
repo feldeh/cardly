@@ -14,8 +14,7 @@
 
   @font-face {
     font-family: 'ABeeZee italic';
-    src: url('/fonts/ABeeZee-Italic.woff2') format('woff2');
-    font-weight: 400;
+    src: url('/fonts/ABeeZee-Italic.woff2');
     font-display: swap;
   }
 

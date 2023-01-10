@@ -2,9 +2,15 @@ import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 
 const Chiffres = () => {
   return (
-    <div className="bg-black h-screen">
-      <div className="mx-14">
-        <SectionTitle />
+    <div className="h-screen">
+      <div className="">
+        <div className="mt-12">
+          <SectionTitle
+            title="En Chiffres"
+            subTitle="Cardly En Un Coup D’oeil"
+            number="04"
+          />
+        </div>
       </div>
     </div>
   );
