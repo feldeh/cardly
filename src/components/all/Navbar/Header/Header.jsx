@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Flex from '../../shared/Flex/Flex';
+import Flex from '../../../shared/Flex/Flex';
 import HeaderLink from './HeaderLink/HeaderLink';
 
 const Header = () => {

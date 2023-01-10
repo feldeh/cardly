@@ -20,6 +20,11 @@ module.exports = {
         xl: '25px',
         title: '30px',
       },
+
+      fontFamily: {
+        ABeeZeeItalic: 'ABeeZee italic',
+      },
+
       boxShadow: {
         btnShadow: '2px 4px 10px 2px red',
       },

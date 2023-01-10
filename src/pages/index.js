@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../components/all/Navbar/Navbar';
+import Chiffres from '../components/home/Chiffres/Chiffres';
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar>
-          <div className="h-[900px] bg-black"></div>
-        </Navbar>
+        {/* <Navbar> */}
+        <Chiffres />
+        {/* </Navbar> */}
       </main>
     </>
   );
