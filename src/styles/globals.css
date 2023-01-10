@@ -4,7 +4,7 @@
 @layer base {
   html {
     font-family: 'ABeeZee', sans-serif;
-    src: url('/fonts/ABeeZee-Regular.woff2') format('woff2');
+    src: url('/assets/fonts/ABeeZee-Regular.woff2');
     font-display: swap;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -14,7 +14,7 @@
 
   @font-face {
     font-family: 'ABeeZee italic';
-    src: url('/fonts/ABeeZee-Italic.woff2');
+    src: url('/assets/fonts/ABeeZee-Italic.woff2');
     font-display: swap;
   }
 
