@@ -3,32 +3,26 @@
 @import 'tailwindcss/utilities';
 @layer base {
   html {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
     letter-spacing: 0.03em;
     background-color: #f8f8f7;
     @apply text-lightGrey;
   }
-
-  /* @font-face {
-        font-family: 'SFNSRounded';
-        src: url('/fonts/SFNSRounded.woff2') format('woff2');
-        font-weight: 400;
-        font-display: swap;
-        font-style: normal;
-    } */
 
   .textGradient {
     background: linear-gradient(
       90deg,
       #fc6a88 0%,
       #f44a9e 33%,
-      #cc72c0 66%,
+      #cc72c0 67%,
       #9ca2e9 100%
     );
   }
 
-  .btnGradient {
-    /* box-shadow: inset 0 0 12px 12px rgb(217, 217, 217 / 0.2); */
-    background: linear-gradient(to right, #fc6a88, #f44a9e, #cc72c0, #99a5eb);
+  .absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

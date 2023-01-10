@@ -17,6 +17,7 @@ module.exports = {
         sm: '12px',
         base: '15px',
         subTitle: '20px',
+        xl: '25px',
         title: '30px',
       },
       boxShadow: {
