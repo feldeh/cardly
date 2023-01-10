@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/all/Navbar/Navbar';
+import BusinessFuture from '../components/home/BusinessFuture/BusinessFuture';
 import Chiffres from '../components/home/Chiffres/Chiffres';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar>
+          <BusinessFuture />
           <Chiffres />
         </Navbar>
       </main>

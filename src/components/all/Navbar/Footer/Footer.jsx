@@ -1,5 +1,5 @@
 import Flex from '../../../shared/Flex/Flex';
-import GradientLink from '../../../shared/GradientLink/GradientLink';
+import FooterGradientLink from './FooterGradientLink/FooterGradientLink';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         Connect with the Future Go Digital with Your Business Card
       </p>
       <div className="mb-[80px]">
-        <GradientLink />
+        <FooterGradientLink />
       </div>
       <p className="mb-4 text-[14px] font-light">Cardly</p>
     </Flex>
