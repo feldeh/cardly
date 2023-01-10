@@ -7,7 +7,22 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lightGrey: '#9C9C9C',
+        blackTitle: '#121212',
+      },
+
+      fontSize: {
+        sm: '12px',
+        base: '15px',
+        subTitle: '20px',
+        title: '30px',
+      },
+      boxShadow: {
+        btnShadow: '2px 4px 10px 2px red',
+      },
+    },
   },
   plugins: [],
 };

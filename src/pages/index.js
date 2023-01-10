@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import TestComponent from '../components/TestComponent/TestComponent';
+import Navbar from '../components/Navbar/Navbar';
 
 export default function Home() {
   return (
@@ -11,10 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>
-          <h1>hello</h1>
-          <TestComponent />
-        </div>
+        <Navbar>
+          <div className="h-[900px] bg-black"></div>
+        </Navbar>
       </main>
     </>
   );
