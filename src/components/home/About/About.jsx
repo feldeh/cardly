@@ -4,7 +4,7 @@ import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 const About = () => {
   return (
     <div>
-      <div className="mb-8 mt-[200px]">
+      <div className="mb-6 mt-[200px]">
         <SectionTitle
           title="A Propos"
           subTitle="En Savoir Plus Sur Cardy"
@@ -14,9 +14,7 @@ const About = () => {
           number="03"
         />
       </div>
-      <div className="">
-        <FeatureCards />
-      </div>
+      <FeatureCards />
     </div>
   );
 };
