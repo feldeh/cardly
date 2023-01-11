@@ -1,4 +1,4 @@
-const ExperienceCard = () => {
+const ExperienceCards = () => {
   const experiences = [
     {
       number: '13',
@@ -36,4 +36,4 @@ const ExperienceCard = () => {
   );
 };
 
-export default ExperienceCard;
+export default ExperienceCards;

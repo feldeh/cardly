@@ -1,5 +1,5 @@
 import SectionTitle from '../../shared/SectionTitle/SectionTitle';
-import ExperienceCard from './ExperienceCard/ExperienceCard';
+import ExperienceCards from './ExperienceCards/ExperienceCards';
 
 const Chiffres = () => {
   return (
@@ -11,7 +11,7 @@ const Chiffres = () => {
       />
 
       <div className="absolute top-[118px] w-full">
-        <ExperienceCard />
+        <ExperienceCards />
       </div>
     </div>
   );

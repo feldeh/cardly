@@ -9,7 +9,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightGrey: '#1F1F1F',
+        darkGrey: '#1F1F1F',
+        lightGrey: '#9C9C9C',
+        whiteGrey: '#F3F3F3',
         blackTitle: '#121212',
       },
 

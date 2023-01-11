@@ -5,7 +5,7 @@ import HeaderLink from './HeaderLink/HeaderLink';
 const Header = () => {
   return (
     <Flex
-      className="w-full fixed h-[100px] px-[20px] top-0 bg-lightGrey "
+      className="w-full fixed h-[100px] px-[20px] top-0 bg-darkGrey "
       justifyContent="justify-between z-50"
     >
       <div>
