@@ -25,7 +25,7 @@ const ExperienceCards = () => {
             key={i}
             className="mx-8 h-44 bg-[#F3F3F3] rounded-[20px] text-center"
           >
-            <p className="text-[65px] tracking-wide text-transparent bg-clip-text textGradient w-fit mx-auto pt-6">
+            <p className="text-[65px] tracking-wide text-transparent bg-clip-text purpleGradient w-fit mx-auto pt-6">
               {experience.number}+
             </p>
             <p className="text-black text-[20px]">{experience.description}</p>
