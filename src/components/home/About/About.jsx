@@ -3,6 +3,23 @@ import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 import DataCard from './DataCard/DataCard';
 
 const About = () => {
+  const features = [
+    {
+      title: 'Fonctionnalité 1',
+      src: '/assets/img/hexagone.svg',
+      description: 'Protection des données garantie',
+    },
+    {
+      title: 'Fonctionnalité 2',
+      src: '/assets/img/hexagone.svg',
+      description: 'Protection des données garantie',
+    },
+    {
+      title: 'Fonctionnalité 3',
+      src: '/assets/img/hexagone.svg',
+      description: 'Protection des données garantie',
+    },
+  ];
   return (
     <div>
       <div className="mb-6">
@@ -15,7 +32,7 @@ const About = () => {
           number="03"
         />
       </div>
-      <FeatureCards />
+      <FeatureCards features={features} />
       <DataCard />
     </div>
   );
