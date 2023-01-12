@@ -5,7 +5,7 @@ import DataCard from './DataCard/DataCard';
 const About = () => {
   return (
     <div>
-      <div className="mb-6 mt-[200px]">
+      <div className="mb-6">
         <SectionTitle
           title="A Propos"
           subTitle="En Savoir Plus Sur Cardly"
