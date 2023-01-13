@@ -7,7 +7,7 @@ const FeatureCards = ({ features }) => {
         return (
           <div
             key={i}
-            className=" mx-8 rounded-[20px] text-center bg-whiteGrey hover:bg-black"
+            className=" mx-8 rounded-[20px] text-center bg-whiteGrey lg:hover:bg-black"
           >
             <div className="flex flex-col items-center mx-16 py-[53px]">
               <p className="text-xl">{feature.title}</p>

@@ -16,7 +16,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="mt-[200px] mb-[130px]">
+    <div className="mb-[130px]">
       <div className="mb-14">
         <SectionTitle
           title="Fonctionnalités"

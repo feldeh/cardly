@@ -4,6 +4,7 @@ import About from '../components/home/About/About';
 import BusinessFuture from '../components/home/BusinessFuture/BusinessFuture';
 import Chiffres from '../components/home/Chiffres/Chiffres';
 import Features from '../components/home/Features/Features';
+import Hero from '../components/home/Hero/Hero';
 import HowTo from '../components/home/HowTo/HowTo';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar>
+          <Hero />
           <Features />
           <HowTo />
           <About />
