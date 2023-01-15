@@ -12,7 +12,7 @@ const DataCard = () => {
         </p>
       </div>
       <div className="pb-14">
-        <RegularLink href="/" />
+        <RegularLink href="/waitlist" />
       </div>
     </div>
   );

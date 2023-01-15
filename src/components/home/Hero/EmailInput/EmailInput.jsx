@@ -18,7 +18,7 @@ const EmailInput = () => {
 
       <Link
         href={{
-          pathname: '/',
+          pathname: '/waitlist',
           query: { email: email },
         }}
       >

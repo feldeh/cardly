@@ -31,7 +31,7 @@ const Features = () => {
       <div className="mb-[50px]">
         <FeatureCards features={features} />
       </div>
-      <RegularLink href="/" black />
+      <RegularLink href="/waitlist" black />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const RegularLink = ({ href, black }) => {
   return (
-    <div className="z-50 w-fit mx-auto">
+    <div className="z-50 mx-auto w-fit">
       <Link href={href}>
         <div
           className={`${
