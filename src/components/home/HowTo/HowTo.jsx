@@ -15,7 +15,7 @@ const HowTo = () => {
       <div className="mt-[50px] bg-[#E8E8E7] relative">
         <div className="text-center text-[28px] font-ABeeZeeItalic leading-8 pt-10 pb-[150px]">
           <p className="text-black">Comment fonctionne</p>
-          <p className="text-transparent bg-clip-text purpleGradient w-fit mx-auto">
+          <p className="mx-auto text-transparent bg-clip-text purpleGradient w-fit">
             Cardly
           </p>
         </div>
