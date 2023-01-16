@@ -1,10 +1,11 @@
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 
-const WaitlistForm = () => {
+const WaitlistForm = ({ email }) => {
   const [form, setForm] = useState({
     firstName: '',
     lastName: '',
-    email: '',
+    email: email,
   });
 
   const handleChange = (e) => {
@@ -15,10 +16,24 @@ const WaitlistForm = () => {
     }));
   };
 
-  const handleSubmit = () => {};
+  const router = useRouter();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const res = await fetch('/api/waitlist', {
+      body: JSON.stringify({
+        firstName: form.firstName,
+        lastName: form.lastName,
+        email: form.email,
+      }),
+      headers: { 'Content-Type': 'application/json' },
+      method: 'POST',
+    });
+    router.push('/envoi');
+  };
 
   return (
-    <div className="pt-20 pb-[90px] text-white bg-black px-[45px]">
+    <div className="pt-20 pb-[40px] text-white bg-black px-[37px]">
       <form method="post" onSubmit={handleSubmit}>
         <div>
           <div>
@@ -66,6 +81,10 @@ const WaitlistForm = () => {
             rejoindre la liste d&apos;attente
           </button>
         </div>
+        <p className="text-[12px] mt-[50px] font-ABeeZeeItalic text-transparent bg-clip-text purpleGradient mx-auto w-fit text-center">
+          *En t’inscrivant, tu bénéficies d’un accès “Early Bird”
+        </p>
+        <p className="text-4xl">{email}</p>
       </form>
     </div>
   );

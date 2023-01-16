@@ -1,12 +1,12 @@
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
-const Navbar = ({ children }) => {
+const Navbar = ({ children, current }) => {
   return (
     <div>
       <Header />
       {children}
-      <Footer />
+      {!(current == 'waitlist' || current == 'envoi') ? <Footer /> : null}
     </div>
   );
 };

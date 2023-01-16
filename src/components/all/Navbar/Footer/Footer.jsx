@@ -2,7 +2,7 @@ import GradientLink from '../../../shared/GradientLink/GradientLink';
 
 const Footer = () => {
   return (
-    <div className="bg-black relative text-white text-center bottom-0 w-full pt-10 pb-4 px-10">
+    <div className="relative bottom-0 w-full px-10 pt-10 pb-4 text-center text-white bg-black">
       <p className="text-xl leading-[30px] mb-[50px]">
         Connect with the Future Go Digital with Your Business Card
       </p>

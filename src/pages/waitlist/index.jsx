@@ -3,7 +3,15 @@ import Navbar from '../../components/all/Navbar/Navbar';
 import WaitlistForm from '../../components/waitlist/WaitlistForm/WaitlistForm';
 import WaitlistHeader from '../../components/waitlist/WaitlistHeader/WaitlistHeader';
 
-const Waitlist = () => {
+export const getServerSideProps = (context) => {
+  return {
+    props: {
+      email: context.query.email || null,
+    },
+  };
+};
+
+const Waitlist = ({ email }) => {
   return (
     <>
       <Head>
@@ -13,9 +21,9 @@ const Waitlist = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar>
+        <Navbar current="waitlist">
           <WaitlistHeader />
-          <WaitlistForm />
+          <WaitlistForm email={email} />
         </Navbar>
       </main>
     </>
