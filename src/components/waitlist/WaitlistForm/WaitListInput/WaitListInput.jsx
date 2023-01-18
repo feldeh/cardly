@@ -1,11 +1,18 @@
 import { useState } from 'react';
 
-const WaitListInput = ({ data, placeholder, name, fullWidth }) => {
+const WaitListInput = ({
+  data,
+  setData,
+  placeholder,
+  name,
+  type,
+  fullWidth,
+}) => {
   const [showInvalidInput, setShowInvalidInput] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm((prevData) => ({
+    setData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
@@ -14,9 +21,9 @@ const WaitListInput = ({ data, placeholder, name, fullWidth }) => {
     <>
       <input
         className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-black h-[39px] focus:outline-none peer"
-        type="text"
+        type={type}
         placeholder={placeholder}
-        value={data.lastName}
+        value={data}
         name={name}
         required
         onChange={handleChange}
