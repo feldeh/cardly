@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Confetti from 'react-dom-confetti';
+import WaitListInput from './WaitListInput/WaitListInput';
 
 const WaitlistForm = ({ email }) => {
   const [form, setForm] = useState({
@@ -8,14 +9,6 @@ const WaitlistForm = ({ email }) => {
     lastName: '',
     email: email,
   });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
 
   const router = useRouter();
 
@@ -53,8 +46,6 @@ const WaitlistForm = ({ email }) => {
     colors: ['#fc6a88', '#f44a9e', '#cc72c0', '#99a5eb', '#a864fd'],
   };
 
-  const [showInvalidInput, setShowInvalidInput] = useState(false);
-
   const [buttonDisabled, setButtonDisabled] = useState(true);
 
   useEffect(() => {
@@ -77,54 +68,17 @@ const WaitlistForm = ({ email }) => {
       <form method="post" onSubmit={handleSubmit}>
         <div>
           <div>
-            <input
-              className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-black h-[39px] focus:outline-none peer"
-              type="text"
-              placeholder="Prénom*"
-              value={form.firstName}
-              name="firstName"
-              required
-              onChange={handleChange}
-              onBlur={() => setShowInvalidInput(true)}
-            />
-            <hr
-              className={`w-[50%] border-t-2 border-white 
-              ${showInvalidInput ? 'peer-invalid:border-[#f2077b]' : ''}
-              `}
-            />
+            <WaitListInput data={form} placeholder="Prénom*" name="firstName" />
           </div>
           <div className="my-[26px]">
-            <input
-              className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-black h-[39px] focus:outline-none peer"
-              type="text"
-              placeholder="Nom*"
-              value={form.lastName}
-              name="lastName"
-              required
-              onChange={handleChange}
-              onBlur={() => setShowInvalidInput(true)}
-            />
-            <hr
-              className={`w-[50%] border-t-2 border-white 
-              ${showInvalidInput ? 'peer-invalid:border-[#f2077b]' : ''}
-              `}
-            />
+            <WaitListInput data={form} placeholder="Nom*" name="lastName" />
           </div>
           <div>
-            <input
-              className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-black h-[39px] focus:outline-none peer"
-              type="text"
+            <WaitListInput
+              data={form}
               placeholder="Email*"
-              value={form.email}
               name="email"
-              required
-              onChange={handleChange}
-              onBlur={() => setShowInvalidInput(true)}
-            />
-            <hr
-              className={`border-t-2 border-white 
-              ${showInvalidInput ? 'peer-invalid:border-[#f2077b]' : ''}
-              `}
+              fullWidth
             />
           </div>
         </div>
