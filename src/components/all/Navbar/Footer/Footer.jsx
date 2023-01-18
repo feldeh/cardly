@@ -1,4 +1,4 @@
-import GradientLink from '../../../Shared/GradientLink/GradientLink';
+import GradientLink from '../../../shared/GradientLink/GradientLink';
 
 const Footer = () => {
   return (

@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Navbar from '../../components/All/Navbar/Navbar';
-import WaitlistLayout from '../../components/Waitlist/WaitlistLayout/WaitlistLayout';
+import Navbar from '../../components/all/Navbar/Navbar';
+import WaitlistLayout from '../../components/waitlist/WaitlistLayout/WaitlistLayout';
 
 export const getServerSideProps = (context) => {
   return {
