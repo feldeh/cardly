@@ -22,7 +22,7 @@ const Waitlist = ({ email }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="overflow-x-hidden">
+      <main>
         <Navbar current="waitlist">
           <WaitlistLayout email={email} />
         </Navbar>

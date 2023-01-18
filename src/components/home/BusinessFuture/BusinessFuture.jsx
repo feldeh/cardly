@@ -11,7 +11,7 @@ const BusinessFuture = () => {
         <Image src="/assets/img/card.svg" fill alt="your card" />
       </div>
       <div className="mt-[120px] pb-8">
-        <GradientLink href="/waitlist" />
+        <GradientLink href="/waitlist" text="rejoindre la liste d'attente" />
       </div>
     </div>
   );

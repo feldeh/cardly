@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const GradientLink = ({ href }) => {
+const GradientLink = ({ href, text }) => {
   return (
     <div className="z-50 mx-auto w-fit">
       <Link href={href}>
@@ -13,7 +13,7 @@ const GradientLink = ({ href }) => {
           className={`${positionX} ${positionY} z-0 absoluteCenter w-[200px] h-[65px] blur-sm purpleGradient rounded-[50px]`}
         /> */}
         <div className="bg-white rounded-[50px] w-[200px] h-[62px] pt-[14px] px-6 text-base uppercase text-center leading-[18px] purpleGradient text-white">
-          <div>rejoindre la liste d&apos;attente</div>
+          <div>{text}</div>
         </div>
       </Link>
     </div>

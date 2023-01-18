@@ -7,7 +7,7 @@ const Footer = () => {
         Connect with the Future Go Digital with Your Business Card
       </p>
       <div className="mb-[40px]">
-        <GradientLink href="/waitlist" />
+        <GradientLink href="/waitlist" text="rejoindre la liste d'attente" />
       </div>
       <p className="text-[14px]">Cardly</p>
     </div>
