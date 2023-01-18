@@ -16,6 +16,7 @@ const WaitlistForm = ({ email }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsExploding(!isExploding);
     const res = await fetch('/api/waitlist', {
       body: JSON.stringify({
         firstName: form.firstName,
@@ -25,11 +26,9 @@ const WaitlistForm = ({ email }) => {
       headers: { 'Content-Type': 'application/json' },
       method: 'POST',
     });
-    setIsExploding(!isExploding);
-
     setTimeout(() => {
       router.push('/envoi');
-    }, 400);
+    }, 500);
   };
 
   useEffect(() => {
