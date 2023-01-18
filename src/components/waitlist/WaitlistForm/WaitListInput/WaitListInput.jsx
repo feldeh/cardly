@@ -23,7 +23,7 @@ const WaitListInput = ({
         className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-transparent h-[39px] focus:outline-none peer"
         type={type}
         placeholder={placeholder}
-        value={data}
+        value={data || ''}
         name={name}
         required
         onChange={handleChange}
