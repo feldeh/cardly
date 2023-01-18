@@ -23,6 +23,7 @@ const Waitlist = ({ email }) => {
       <main>
         <Navbar current="waitlist">
           <WaitlistHeader />
+
           <WaitlistForm email={email} />
         </Navbar>
       </main>
