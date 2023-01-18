@@ -20,7 +20,7 @@ const WaitListInput = ({
   return (
     <>
       <input
-        className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-black h-[39px] focus:outline-none peer"
+        className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-transparent h-[39px] focus:outline-none peer"
         type={type}
         placeholder={placeholder}
         value={data}

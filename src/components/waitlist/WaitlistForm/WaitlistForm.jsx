@@ -28,7 +28,7 @@ const WaitlistForm = ({ email }) => {
     });
     setTimeout(() => {
       router.push('/envoi');
-    }, 500);
+    }, 400);
   };
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const WaitlistForm = ({ email }) => {
   }, [form.firstName, form.lastName, form.email]);
 
   return (
-    <div className="pt-20 pb-[40px] text-white bg-black px-[45px] overflowHiddenY">
+    <div className="pt-20 pb-[40px] text-white  px-[45px] overflow-y-hidden">
       <form method="post" onSubmit={handleSubmit}>
         <div>
           <div>

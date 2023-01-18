@@ -3,7 +3,7 @@ import Link from 'next/link';
 const HeaderLink = () => {
   return (
     <div className="relative">
-      <Link href="/waitlist" className="">
+      <Link href="/waitlist">
         <div className="bg-white absoluteCenter left-[-78px] z-20 rounded-[50px] w-[155px] h-[50px] pt-3 px-5 text-sm font-medium uppercase text-center leading-[14px]">
           <div className="text-transparent bg-clip-text purpleGradient">
             rejoindre la liste d&apos;attente
