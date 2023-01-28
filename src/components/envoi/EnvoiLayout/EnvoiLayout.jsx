@@ -13,7 +13,7 @@ const EnvoiLayout = () => {
           alt="card"
         />
       </div>
-      <div className="bg-black/60 w-full h-full absolute z-[-5]" />
+      <div className="bg-black/60 w-full h-full absolute z-[-5] top-[60px]" />
 
       <div className="text-white px-[45px] text-center space-y-[100px]">
         <p className="text-[40px] leading-[50px]">

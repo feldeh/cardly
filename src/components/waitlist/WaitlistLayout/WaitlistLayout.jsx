@@ -4,8 +4,8 @@ import WaitlistHeader from './WaitlistHeader/WaitlistHeader';
 
 const WaitlistLayout = ({ email }) => {
   return (
-    <div className="relative w-full h-full">
-      <div className="absolute w-full h-full z-[-10] top-[85px]">
+    <div className="relative">
+      <div className="absolute w-full h-full z-[-10]">
         <Image
           className="w-full bg-black"
           src="/assets/img/cardWaitlist.svg"

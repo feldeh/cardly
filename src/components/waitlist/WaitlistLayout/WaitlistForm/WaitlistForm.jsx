@@ -47,7 +47,7 @@ const WaitlistForm = ({ email }) => {
   }, [form.firstName, form.lastName, form.email]);
 
   return (
-    <div className="pt-20 mb-[20px] text-white  mx-[45px]">
+    <div className="pt-20 pb-[20px] text-white  mx-[45px]">
       <form method="post" onSubmit={handleSubmit}>
         <div>
           <div>
