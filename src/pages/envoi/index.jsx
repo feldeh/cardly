@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '../../components/all/Navbar/Navbar';
 import EnvoiLayout from '../../components/envoi/EnvoiLayout/EnvoiLayout';
 
@@ -15,9 +17,17 @@ const Envoi = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar current="envoi">
-          <EnvoiLayout />
-        </Navbar>
+        {/* <div className="flex justify-center items-center w-full h-[100px] bg-darkGrey">
+          <Link href="/">
+            <Image
+              src="/assets/logo/logo.svg"
+              width={95}
+              height={41}
+              alt="logo"
+            />
+          </Link>
+        </div> */}
+        <EnvoiLayout />
       </main>
     </>
   );
