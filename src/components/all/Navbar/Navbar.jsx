@@ -6,7 +6,7 @@ const Navbar = ({ children, current }) => {
     <div className="w-full">
       <Header />
       {children}
-      {!(current == 'waitlist' || current == 'envoi') ? <Footer /> : null}
+      {!(current == 'waitlist') ? <Footer /> : null}
     </div>
   );
 };
