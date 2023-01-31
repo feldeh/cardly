@@ -10,6 +10,7 @@
     letter-spacing: 0.03em;
     background-color: #f8f8f7;
     @apply text-lightGrey;
+    scroll-padding-top: 100px;
   }
 
   html,

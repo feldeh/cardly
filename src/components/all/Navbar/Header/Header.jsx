@@ -16,10 +16,18 @@ const Header = () => {
         </Link>
       </div>
       <div className="text-[20px] text-white justify-between hidden w-3/6 lg:flex pr-[130px]">
-        <div>Features</div>
-        <div>How to</div>
-        <div>About us</div>
-        <div>Faq</div>
+        <Link href="#features">
+          <div>Features</div>
+        </Link>
+        <Link href="/">
+          <div>How to</div>
+        </Link>
+        <Link href="/">
+          <div>About us</div>
+        </Link>
+        <Link href="/">
+          <div>Faq</div>
+        </Link>
       </div>
       <HeaderLink />
     </div>

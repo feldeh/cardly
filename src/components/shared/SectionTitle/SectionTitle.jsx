@@ -2,7 +2,9 @@ const SectionTitle = ({ title, subTitle, description, number }) => {
   return (
     <div className="relative">
       <div className="relative z-20 mx-[54px]">
-        <p className="text-lg font-ABeeZeeItalic text-li">{title}</p>
+        <a id="features" className="text-lg font-ABeeZeeItalic anchor">
+          {title}
+        </a>
         <p className="text-[28px] font-ABeeZeeItalic leading-8 text-black">
           {subTitle}
         </p>
