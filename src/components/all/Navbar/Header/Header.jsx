@@ -15,6 +15,12 @@ const Header = () => {
           />
         </Link>
       </div>
+      <div className="text-[20px] text-white justify-between hidden w-3/6 lg:flex pr-[130px]">
+        <div>Features</div>
+        <div>How to</div>
+        <div>About us</div>
+        <div>Faq</div>
+      </div>
       <HeaderLink />
     </div>
   );
