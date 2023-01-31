@@ -7,7 +7,8 @@ const HowTo = () => {
       <SectionTitle
         title="How To"
         id="howto"
-        subTitle="Comment fonctionne Cardly"
+        subTitle="Comment"
+        subTitle2="fonctionne Cardly"
         description="Cardly is more of a mindset than technology or industry, our product is
         designed by tech specialist to solve these problems. It will save you
         time, money and other problems."

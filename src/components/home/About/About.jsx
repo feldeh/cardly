@@ -26,7 +26,8 @@ const About = () => {
         <SectionTitle
           title="A Propos"
           id="aboutus"
-          subTitle="En Savoir Plus Sur Cardly"
+          subTitle="En Savoir Plus Sur"
+          subTitle2="Cardly"
           description="Cardly is more of a mindset than technology or industry, our product is
               designed by tech specialist to solve these problems. It will save you
               time, money and other problems."
