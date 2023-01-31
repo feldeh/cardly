@@ -4,7 +4,7 @@ import HeaderLink from './HeaderLink/HeaderLink';
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center w-full fixed h-[100px] px-[20px] top-0 bg-darkGrey z-50">
+    <div className="flex justify-between items-center w-full fixed h-[100px] px-[20px] lg:px-[130px] top-0 bg-darkGrey z-50">
       <div>
         <Link href="/">
           <Image
