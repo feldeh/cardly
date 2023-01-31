@@ -15,7 +15,7 @@ const Header = () => {
           />
         </Link>
       </div>
-      <div className="text-[20px] text-white justify-between hidden w-3/6 lg:flex pr-[130px]">
+      <div className="text-[20px] text-white justify-between hidden w-3/6 xl:flex pr-[130px]">
         <Link href="#features">
           <div>Features</div>
         </Link>
