@@ -25,6 +25,7 @@ const About = () => {
       <div className="mb-6">
         <SectionTitle
           title="A Propos"
+          id="aboutus"
           subTitle="En Savoir Plus Sur Cardly"
           description="Cardly is more of a mindset than technology or industry, our product is
               designed by tech specialist to solve these problems. It will save you

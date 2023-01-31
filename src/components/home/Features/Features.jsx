@@ -20,6 +20,7 @@ const Features = () => {
       <div className="mb-14">
         <SectionTitle
           title="Fonctionnalités"
+          id="features"
           subTitle="Best features
             provided by Cardly"
           description="Cardly is more of a mindset than technology or industry, our product is

@@ -6,6 +6,7 @@ const Chiffres = () => {
     <div className="h-[960px] mt-24 relative">
       <SectionTitle
         title="En Chiffres"
+        id="faq"
         subTitle="Cardly En Un Coup D’oeil"
         number="04"
       />

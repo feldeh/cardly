@@ -1,8 +1,8 @@
-const SectionTitle = ({ title, subTitle, description, number }) => {
+const SectionTitle = ({ title, subTitle, description, number, id }) => {
   return (
     <div className="relative">
       <div className="relative z-20 mx-[54px]">
-        <a id="features" className="text-lg font-ABeeZeeItalic anchor">
+        <a id={id} className="text-lg font-ABeeZeeItalic anchor">
           {title}
         </a>
         <p className="text-[28px] font-ABeeZeeItalic leading-8 text-black">
