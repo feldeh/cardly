@@ -22,8 +22,8 @@ const SectionTitle = ({
           </p>
           <p
             className={`${
-              flex ? 'lg:mt-2 lg:w-4/5 lg:pl-[400px]' : ''
-            } mt-6  font-ABeeZeeItalic text-[17px] lg:tracking-wide leading-5 mx-auto`}
+              flex ? 'lg:mt-2 lg:w-4/5 lg:pl-[130px]' : ''
+            } mt-6 font-ABeeZeeItalic text-[17px] lg:tracking-wide leading-5 mx-auto`}
           >
             {description}
           </p>
