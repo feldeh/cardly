@@ -12,7 +12,7 @@ const GradientLink = ({ href, text }) => {
         <div
           className={`${positionX} ${positionY} z-0 absoluteCenter w-[200px] h-[65px] blur-sm purpleGradient rounded-[50px]`}
         /> */}
-        <div className="bg-white rounded-[50px] w-[200px] h-[62px] pt-[14px] px-6 text-base uppercase text-center leading-[18px] purpleGradient text-white">
+        <div className="bg-white rounded-[50px] w-[200px] h-[62px] lg:w-[280px] lg:h-[80px] pt-[14px] px-6 lg:px-8 text-base lg:text-lg uppercase text-center leading-[18px] purpleGradient text-white">
           <div>{text}</div>
         </div>
       </Link>
