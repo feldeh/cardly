@@ -32,6 +32,7 @@ const About = () => {
               designed by tech specialist to solve these problems. It will save you
               time, money and other problems."
           number="03"
+          flex
         />
       </div>
       <FeatureCards features={features} />
