@@ -1,17 +1,18 @@
-import { decouvrir, rounded, threeCards } from './svg';
+import { decouvrir, rounded, threeCards } from "./svg";
 
 const BottomHeroImg = () => {
   return (
-    <div className="relative">
+    <div className='relative'>
       <div
-        className="absoluteCenter top-[-115px]"
+        className='absoluteCenter top-[-115px]'
         dangerouslySetInnerHTML={{
           __html: threeCards,
         }}
       />
-      <div className="relative z-10">
+      <div className='relative z-10'>
         <div
-          className="absoluteCenter top-[-16px]"
+          id='decouvrir'
+          className='absoluteCenter left-[38%] top-[-60px]'
           dangerouslySetInnerHTML={{
             __html: decouvrir,
           }}
