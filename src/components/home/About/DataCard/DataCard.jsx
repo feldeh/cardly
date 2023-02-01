@@ -2,8 +2,8 @@ import RegularLink from '../../../shared/RegularLink/RegularLink';
 
 const DataCard = () => {
   return (
-    <div className="text-center purpleGradient rounded-[20px] mx-8 mt-[33px]">
-      <div className="pt-10 mb-14">
+    <div className="text-center purpleGradient rounded-[20px] mx-8">
+      <div className="px-0 pt-10 mb-14">
         <p className="text-3xl text-white leading-[38px] mx-[21px]">
           Toutes Tes Données
         </p>

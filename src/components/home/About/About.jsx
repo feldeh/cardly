@@ -26,8 +26,7 @@ const About = () => {
         <SectionTitle
           title="A Propos"
           id="aboutus"
-          subTitle="En Savoir Plus Sur"
-          subTitle2="Cardly"
+          subTitle="En Savoir Plus Sur Cardly"
           description="Cardly is more of a mindset than technology or industry, our product is
               designed by tech specialist to solve these problems. It will save you
               time, money and other problems."
@@ -35,8 +34,10 @@ const About = () => {
           flex
         />
       </div>
-      <FeatureCards features={features} />
-      <DataCard />
+      <div className="lg:flex">
+        <FeatureCards features={features} />
+        <DataCard />
+      </div>
     </div>
   );
 };

@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 const FeatureCards = ({ features }) => {
   return (
-    <div className="space-y-[33px]">
+    <div className="lg:flex">
       {features.map((feature, i) => {
         return (
           <div
             key={i}
-            className=" mx-8 rounded-[20px] text-center bg-whiteGrey lg:hover:bg-black"
+            className="mx-8 mb-[33px] rounded-[20px] text-center bg-whiteGrey lg:my-auto lg:hover:bg-black"
           >
-            <div className="flex flex-col items-center mx-16 py-[53px]">
+            <div className="flex flex-col items-center mx-1 py-[53px]">
               <p className="text-xl">{feature.title}</p>
               <div className="mt-8">
                 <Image
