@@ -17,20 +17,30 @@ const Features = () => {
   ];
   return (
     <div className="mb-[130px]">
-      <div className="mb-14">
-        <SectionTitle
-          title="Fonctionnalités"
-          id="features"
-          subTitle="Best features"
-          subTitle2="provided by Cardly"
-          description="Cardly is more of a mindset than technology or industry, our product is designed by tech specialist to solve these problems. It will save you time, money and other problems."
-          number="02"
-        />
+      <div className="lg:flex">
+        <div className="mb-14 lg:mt-[140px]">
+          <SectionTitle
+            title="Fonctionnalités"
+            id="features"
+            subTitle="Best features"
+            subTitle2="provided by Cardly"
+            description="Cardly is more of a mindset than technology or industry, our product is designed by tech specialist to solve these problems. It will save you time, money and other problems."
+            number="01"
+          />
+          <div className="hidden lg:block lg:float-left lg:ml-[60px] lg:mt-[100px]">
+            <RegularLink href="/waitlist" black />
+          </div>
+        </div>
+        <div className="mb-[50px] lg:w-full">
+          <div className="mb-[32px]">
+            <FeatureCards features={features} featuresSection />
+          </div>
+          <FeatureCards features={features} featuresSection />
+        </div>
       </div>
-      <div className="mb-[50px]">
-        <FeatureCards features={features} />
+      <div className="lg:hidden">
+        <RegularLink href="/waitlist" black />
       </div>
-      <RegularLink href="/waitlist" black />
     </div>
   );
 };
