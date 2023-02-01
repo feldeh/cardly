@@ -30,6 +30,10 @@ module.exports = {
       boxShadow: {
         btnShadow: '2px 4px 10px 2px red',
       },
+
+      animation: {
+        'rotation-slow': 'rotation 5s linear infinite',
+      },
     },
   },
   plugins: [],

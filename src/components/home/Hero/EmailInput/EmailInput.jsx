@@ -5,7 +5,7 @@ const EmailInput = () => {
   const [email, setEmail] = useState('');
 
   return (
-    <div className="mb-[60px] flex flex-row justify-between mx-8 border-[1px] h-[55px] border-white rounded-[50px]">
+    <div className="mb-[60px] flex flex-row justify-between max-w-md mx-8 border-[1px] h-[55px] border-white rounded-[50px]">
       <input
         type="text"
         placeholder="Entre ton email"

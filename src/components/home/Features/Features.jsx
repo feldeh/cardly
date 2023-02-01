@@ -27,7 +27,7 @@ const Features = () => {
             description="Cardly is more of a mindset than technology or industry, our product is designed by tech specialist to solve these problems. It will save you time, money and other problems."
             number="01"
           />
-          <div className="hidden lg:block lg:float-left lg:ml-[60px] lg:mt-[100px]">
+          <div className="hidden lg:block lg:float-left lg:ml-[55px] lg:mt-[70px]">
             <RegularLink href="/waitlist" black />
           </div>
         </div>
