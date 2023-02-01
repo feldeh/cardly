@@ -23,9 +23,7 @@ const Features = () => {
           id="features"
           subTitle="Best features"
           subTitle2="provided by Cardly"
-          description="Cardly is more of a mindset than technology or industry, our product is
-            designed by tech specialist to solve these problems. It will save you
-            time, money and other problems."
+          description="Cardly is more of a mindset than technology or industry, our product is designed by tech specialist to solve these problems. It will save you time, money and other problems."
           number="02"
         />
       </div>
