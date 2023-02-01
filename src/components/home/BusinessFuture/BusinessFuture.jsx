@@ -13,7 +13,7 @@ const BusinessFuture = () => {
       <div className="hidden lg:block h-[700px] w-[804px] right-[70px] top-[10px] absolute">
         <Image src="/assets/img/card.svg" fill alt="your card" />
       </div>
-      <div className="mt-[120px] lg:mt-[80px] pb-8 lg:float-left">
+      <div className="mt-[120px] lg:mt-[80px] pb-8 lg:float-left lg:ml-5">
         <GradientLink href="/waitlist" text="rejoindre la liste d'attente" />
       </div>
     </div>
