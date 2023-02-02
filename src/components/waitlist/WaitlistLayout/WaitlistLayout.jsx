@@ -4,7 +4,7 @@ import WaitlistHeader from './WaitlistHeader/WaitlistHeader';
 
 const WaitlistLayout = ({ email }) => {
   return (
-    <div className="relative pt-[25px] 2xl:pt-[100px]">
+    <div className="relative pt-[25px] 2xl:pt-[100px] 2xl:pb-[0px]">
       <div className="absolute w-full h-full z-[-10]">
         <Image
           className="w-full bg-black"

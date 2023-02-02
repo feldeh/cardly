@@ -4,7 +4,7 @@ import GradientLink from '../../shared/GradientLink/GradientLink';
 
 const EnvoiLayout = () => {
   return (
-    <div className="relative w-full pt-[150px] pb-3 mt-[-90px]">
+    <div className="relative w-full pt-[150px] pb-3 mt-[-90px] h-screen">
       <div className="absolute w-full h-full z-[-10] top-[90px]">
         <Image
           className="bg-black"

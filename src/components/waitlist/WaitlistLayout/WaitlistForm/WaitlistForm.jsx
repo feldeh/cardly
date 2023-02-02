@@ -79,13 +79,13 @@ const WaitlistForm = ({ email }) => {
             />
           </div>
         </div>
-        <div className="mx-auto w-fit">
+        <div className="mx-auto w-fit 2xl:mt-[80px]">
           <WaitlistBtn
             buttonDisabled={buttonDisabled}
             isExploding={isExploding}
           />
         </div>
-        <p className="text-[12px] mt-[50px] font-ABeeZeeItalic text-transparent bg-clip-text purpleGradient mx-auto w-fit text-center">
+        <p className="text-[12px] mt-[50px] font-ABeeZeeItalic text-transparent bg-clip-text purpleGradient mx-auto w-fit text-center 2xl:mt-[70px]">
           *En t’inscrivant, tu bénéficies d’un accès “Early Bird”
         </p>
       </form>
