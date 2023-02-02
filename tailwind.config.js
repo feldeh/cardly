@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        smartphone: '392px',
+        largeScreen: '1190px',
+        macbook: '1440px',
+      },
       colors: {
         darkGrey: '#1F1F1F',
         lightGrey: '#9C9C9C',

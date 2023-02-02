@@ -16,7 +16,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="mb-[130px]">
+    <div className="mb-[130px] mt-[130px]">
       <div className="lg:flex">
         <div className="mb-14 lg:mt-[140px]">
           <SectionTitle
