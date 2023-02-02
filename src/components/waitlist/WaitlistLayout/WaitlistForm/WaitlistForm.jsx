@@ -26,9 +26,7 @@ const WaitlistForm = ({ email }) => {
       headers: { 'Content-Type': 'application/json' },
       method: 'POST',
     });
-    setTimeout(() => {
-      router.push('/envoi');
-    }, 400);
+    router.push('/envoi');
   };
 
   useEffect(() => {
