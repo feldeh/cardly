@@ -17,17 +17,9 @@ const Envoi = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <div className="flex justify-center items-center w-full h-[100px] bg-darkGrey">
-          <Link href="/">
-            <Image
-              src="/assets/logo/logo.svg"
-              width={95}
-              height={41}
-              alt="logo"
-            />
-          </Link>
-        </div> */}
-        <EnvoiLayout />
+        <div className="pb-20 2xl:pb-28">
+          <EnvoiLayout />
+        </div>
       </main>
     </>
   );

@@ -4,7 +4,7 @@ import GradientLink from '../../shared/GradientLink/GradientLink';
 
 const EnvoiLayout = () => {
   return (
-    <div className="relative w-full pt-[150px] pb-3 mt-[-90px] h-screen">
+    <div className="relative w-full pt-[150px] md:pt-[250px] lg:pt-[250px] mt-[-90px] h-screen">
       <div className="absolute w-full h-full z-[-10] top-[90px]">
         <Image
           className="bg-black"
@@ -15,7 +15,7 @@ const EnvoiLayout = () => {
       </div>
       <div className="bg-black/60 w-full h-full absolute z-[-5] top-[90px]" />
 
-      <div className="text-white px-[45px] text-center">
+      <div className="text-white px-[45px] text-center sm:mx-[100px] md:mx-[150px]  largeScreen:mx-[300px] macbook:mx-[400px] 2xl:mx-[500px]">
         <p className="text-[40px] leading-[50px]">
           Bravo pour ton enregistrement 👏
         </p>
@@ -24,7 +24,7 @@ const EnvoiLayout = () => {
           tu recevras un mail te donnant accès en avant première à ta carte !
         </p>
       </div>
-      <div className="mt-[100px]">
+      <div className="mt-[100px] sm:mt-[200px] 2xl:mt-[300px] ">
         <GradientLink href="/" text="revenir à l'accueil" />
 
         <p className="text-[12px] mt-[50px] font-ABeeZeeItalic text-transparent bg-clip-text purpleGradient mx-auto w-fit text-center">
