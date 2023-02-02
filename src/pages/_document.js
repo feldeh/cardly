@@ -6,12 +6,12 @@ export default function Document() {
       <Head>
         <meta property="og:title" content="Cardly" />
         <meta name="twitter:title" content="Cardly" />
-        <meta name="description" content="Cardly" />
-        <meta property="og:description" content="Cardly" />
-        <meta name="twitter:description" content="Cardly" />
+        <meta name="description" content="Go digital with Cardly" />
+        <meta property="og:description" content="Go digital with Cardly" />
+        <meta name="twitter:description" content="Go digital with Cardly" />
         <meta property="og:url" content="https://cardly.vercel.app/" />
         <meta
-          property="og:image"
+          property="og:image:secure_url"
           content="https://cardly.vercel.app/assets/img/card.svg"
         />
         <meta property="og:image:width" content="400" />
