@@ -4,7 +4,7 @@ import WaitlistHeader from './WaitlistHeader/WaitlistHeader';
 
 const WaitlistLayout = ({ email }) => {
   return (
-    <div className="relative">
+    <div className="relative pt-[25px] 2xl:pt-[100px]">
       <div className="absolute w-full h-full z-[-10]">
         <Image
           className="w-full bg-black"
@@ -15,8 +15,10 @@ const WaitlistLayout = ({ email }) => {
       </div>
       <div className="bg-black/60 w-full h-full absolute z-[-5]" />
 
-      <WaitlistHeader />
-      <WaitlistForm email={email} />
+      <div className="md:mx-[100px] lg:mx-[200px] macbook:mx-[450px] 2xl:mx-[600px]">
+        <WaitlistHeader />
+        <WaitlistForm email={email} />
+      </div>
     </div>
   );
 };
