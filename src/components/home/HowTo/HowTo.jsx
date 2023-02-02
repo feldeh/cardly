@@ -14,7 +14,7 @@ const HowTo = () => {
         number="02"
         flex
       />
-      <div className="mt-[50px] bg-[#E8E8E7] relative lg:mx-[50px] lg:rounded-[55px] lg:pb-[130px]">
+      <div className="mt-[50px] bg-[#E8E8E7] relative lg:mx-[50px] lg:rounded-[55px] lg:pb-[130px] xl:mx-[300px] 2xl:mx-[500px]">
         <div className="text-center text-[28px] leading-8 pt-10 pb-[150px] lg:text-[60px] lg:leading-[60px] lg:pt-16">
           <p className="text-black font-ABeeZeeItalic">Comment fonctionne</p>
           <p className="mx-auto text-transparent bg-clip-text purpleGradient w-fit">
