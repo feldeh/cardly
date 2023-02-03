@@ -20,7 +20,7 @@ const WaitListInput = ({
   return (
     <>
       <input
-        className="placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-transparent h-[39px] focus:outline-none peer"
+        className="peer placeholder:text-white placeholder:text-xl font-ABeeZeeItalic bg-transparent h-[39px] focus:outline-none"
         type={type}
         placeholder={placeholder}
         value={data || ''}
@@ -32,7 +32,9 @@ const WaitListInput = ({
       <hr
         className={`${fullWidth ? '' : 'w-[50%]'}        
     ${
-      showInvalidInput ? 'peer-invalid:border-[#f2077b]' : ''
+      showInvalidInput
+        ? 'peer-invalid:border-[#f2077b] peer-invalid:ease-linear peer-invalid:duration-300 peer-invalid:scale-y-150 peer-valid:border-[#3dfe77] peer-valid:ease-linear peer-valid:duration-300 peer-valid:scale-y-150'
+        : ''
     } border-t-2 border-white
     `}
       />
