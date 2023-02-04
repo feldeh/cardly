@@ -31,10 +31,8 @@ const Features = () => {
             <RegularLink href="/waitlist" black />
           </div>
         </div>
-        <div className="mb-[50px] lg:w-full">
-          <div className="mb-[32px]">
-            <FeatureCards features={features} featuresSection />
-          </div>
+        <div className="mb-[50px] mx-4 lg:w-full">
+          <FeatureCards features={features} featuresSection />
           <FeatureCards features={features} featuresSection />
         </div>
       </div>

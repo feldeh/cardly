@@ -34,8 +34,10 @@ const About = () => {
           flex
         />
       </div>
-      <div className="lg:flex">
-        <FeatureCards features={features} />
+      <div className="xl:flex">
+        <div className="mx-4 mb-8">
+          <FeatureCards features={features} />
+        </div>
         <DataCard />
       </div>
     </div>

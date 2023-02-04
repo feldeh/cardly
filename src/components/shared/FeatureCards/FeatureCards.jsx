@@ -2,15 +2,19 @@ import Image from 'next/image';
 
 const FeatureCards = ({ features, featuresSection }) => {
   return (
-    <div className="lg:flex lg:justify-center">
+    <div className="md:flex md:justify-center">
       {features.map((feature, i) => {
         return (
           <div
             key={i}
-            className={`${
-              featuresSection ? 'lg:mx-4' : ''
-            } mx-8 mb-[33px] rounded-[20px] text-center bg-whiteGrey lg:my-auto lg:hover:bg-black`}
+            className="mx-4 mb-0 rounded-[20px] text-center bg-whiteGrey my-8 lg:hover:bg-black"
           >
+            {/* <div
+            key={i}
+            className={`${
+              featuresSection ? 'md:mx-4' : ''
+            } mx-4 mb-[33px] rounded-[20px] text-center bg-whiteGrey my-4 lg:hover:bg-black`}
+          > */}
             <div className="flex flex-col items-center mx-10 py-[45px]">
               <p className="text-xl">{feature.title}</p>
               <div className="mt-8">
