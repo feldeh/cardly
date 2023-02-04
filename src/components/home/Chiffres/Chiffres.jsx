@@ -23,22 +23,22 @@ const Chiffres = () => {
     },
   ];
   return (
-    <div className="h-[960px] lg:h-[550px] mt-24 lg:mt-[180px] largeScreen:flex largeScreen:flex-row lg:mb-20 largeScreen:mb-0">
-      <div className="w-full">
+    <div className="mb-24 mt-24 lg:mt-[180px] largeScreen:flex largeScreen:flex-row lg:mb-36">
+      <div className="">
         <SectionTitle
           title="En Chiffres"
           id="faq"
-          subTitle="Cardly En Un Coup"
+          subTitle="Cardly&nbsp;En&nbsp;Un&nbsp;Coup"
           subTitle2="D’oeil"
           number="04"
         />
       </div>
 
-      <div className=" top-[118px] lg:top-[200px] w-full largeScreen:flex largeScreen:flex-col largeScreen:items-center largeScreen:mr-28 xl:mr-[400px]">
-        <div className="lg:flex lg:justify-center">
+      <div className="w-full md:mt-20 largeScreen:flex largeScreen:flex-col">
+        <div className="md:flex md:justify-center">
           <ExperienceCards experiences={experiences1} />
         </div>
-        <div className="lg:flex lg:justify-center">
+        <div className="md:flex md:justify-center">
           <ExperienceCards experiences={experiences2} />
         </div>
       </div>

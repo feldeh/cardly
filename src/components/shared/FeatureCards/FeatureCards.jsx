@@ -9,12 +9,6 @@ const FeatureCards = ({ features, featuresSection }) => {
             key={i}
             className="mx-4 mb-0 rounded-[20px] text-center bg-whiteGrey my-8 lg:hover:bg-black"
           >
-            {/* <div
-            key={i}
-            className={`${
-              featuresSection ? 'md:mx-4' : ''
-            } mx-4 mb-[33px] rounded-[20px] text-center bg-whiteGrey my-4 lg:hover:bg-black`}
-          > */}
             <div className="flex flex-col items-center mx-10 py-[45px]">
               <p className="text-xl">{feature.title}</p>
               <div className="mt-8">
