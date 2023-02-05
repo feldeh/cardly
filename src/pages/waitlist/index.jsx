@@ -1,16 +1,19 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Navbar from '../../components/all/Navbar/Navbar';
 import WaitlistLayout from '../../components/waitlist/WaitlistLayout/WaitlistLayout';
 
-export const getServerSideProps = (context) => {
-  return {
-    props: {
-      email: context.query.email || null,
-    },
-  };
-};
+// export const getServerSideProps = (context) => {
+//   return {
+//     props: {
+//       email: context.query.email || null,
+//     },
+//   };
+// };
 
-const Waitlist = ({ email }) => {
+const Waitlist = () => {
+  const router = useRouter();
+  const { email } = router.query;
   return (
     <>
       <Head>
