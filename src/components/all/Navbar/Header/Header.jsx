@@ -16,16 +16,16 @@ const Header = () => {
         </Link>
       </div>
       <div className="text-[20px] text-white justify-between hidden w-3/6 xl:flex pr-[130px]">
-        <Link href="#features">
+        <Link href="/#features">
           <div>Features</div>
         </Link>
-        <Link href="#howto">
+        <Link href="/#howto">
           <div>How to</div>
         </Link>
-        <Link href="#aboutus">
+        <Link href="/#aboutus">
           <div>About us</div>
         </Link>
-        <Link href="#faq">
+        <Link href="/#faq">
           <div>Faq</div>
         </Link>
       </div>
